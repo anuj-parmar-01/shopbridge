@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 10px;
+}
+.Popup_container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey;
+}
+.Popup_container h1 {
+    text-align: center;
+}
+.close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+.outer_container {
+    position: fixed;
+    top :10px;
+    left: 50%;
+    margin-left: -150px;
+    background-color: white;
+}
